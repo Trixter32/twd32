@@ -1,1 +1,114 @@
-# twd32
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trixter Web Development (TWD)</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;700;800&family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="orb one"></div>
+  <div class="orb two"></div>
+  <div class="orb three"></div>
+
+  <header class="wrap nav">
+    <div class="brand">Trixter <span>Web Development</span></div>
+    <a class="btn" href="#contact">Start a Project</a>
+  </header>
+
+  <main class="wrap">
+    <section class="brand-splash reveal">
+      <img src="trixter-cover.png" alt="Trixter brand visual" loading="eager" />
+    </section>
+    <section class="hero">
+      <div class="reveal">
+        <span class="kicker">TWD | Websites that convert</span>
+        <h1>Design that looks <span class="accent">wildly good</span> and sells while you sleep.</h1>
+        <p class="lead">
+          Trixter Web Development builds high-performance websites for brands that want more leads,
+          more trust, and a stronger online presence.
+        </p>
+        <div class="cta-row">
+          <a class="cta primary" href="#contact">Book Free Discovery Call</a>
+          <a class="cta secondary" href="#services">See Services</a>
+        </div>
+      </div>
+
+      <aside class="panel reveal">
+        <h3 class="panel-title">Why clients choose TWD</h3>
+        <p class="panel-copy">
+          Modern UI, fast load times, mobile-first, and copy strategy that pushes visitors to take action.
+        </p>
+        <div class="stats">
+          <div class="stat"><b>72hr</b><span>Starter mockup delivery</span></div>
+          <div class="stat"><b>95+</b><span>PageSpeed target</span></div>
+          <div class="stat"><b>24/7</b><span>Lead capture automation</span></div>
+        </div>
+        <div class="testimonial">
+          <p>"TWD turned our site into a sales machine in less than a week."</p>
+          <small>- Sample Client, Studio Owner</small>
+        </div>
+      </aside>
+    </section>
+
+    <section id="services" class="section">
+      <h2 class="reveal">Services</h2>
+      <div class="cards">
+        <article class="card reveal">
+          <h3>Custom Web Design</h3>
+          <p>Unique visual identity, strong brand feel, and conversion-focused layouts.</p>
+        </article>
+        <article class="card reveal">
+          <h3>Landing Pages</h3>
+          <p>Fast campaign pages built to capture leads and drive immediate action.</p>
+        </article>
+        <article class="card reveal">
+          <h3>SEO + Speed Optimization</h3>
+          <p>Technical improvements so your site ranks better and loads instantly.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <h2 class="reveal">Featured Work</h2>
+      <div class="gallery">
+        <figure class="shot reveal">
+          <img src="1.jfif" alt="Website design sample one" loading="lazy" />
+        </figure>
+        <figure class="shot reveal">
+          <img src="2.jfif" alt="Website design sample two" loading="lazy" />
+        </figure>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="reveal">Simple Process, Fast Results</h2>
+      <div class="process">
+        <div class="step reveal"><b>1. Strategy</b>We define your goals and audience.</div>
+        <div class="step reveal"><b>2. Design</b>We craft a standout UI direction.</div>
+        <div class="step reveal"><b>3. Build</b>We develop, optimize, and connect tools.</div>
+        <div class="step reveal"><b>4. Launch</b>You go live and start collecting leads.</div>
+      </div>
+    </section>
+
+    <section id="contact" class="section panel reveal contact-panel">
+      <h2>Ready to Build Your New Website?</h2>
+      <p class="contact-copy">
+        Email <a href="mailto:jovansteven32@gmail.com" class="contact-email">jovansteven32@gmail.com</a>
+        or call <a href="tel:+256743811843" class="contact-phone">+256 743811843</a> to get a quote.
+      </p>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>&copy; 2026 Trixter Web Development (TWD). Built for impact.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
